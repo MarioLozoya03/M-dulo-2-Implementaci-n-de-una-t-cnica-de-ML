@@ -20,3 +20,6 @@
   <li><strong>Posibilidad de admisión</strong>: Probabilidad de admisión (en una escala de 0 a 1).</li>
 </ul>
 
+<h2>Justificación del tipo de Algoritmo</h2>
+<p style="text-align: justify;">
+Vamos a utilizar la regresión lineal en lugar de la regresión logística porque nuestro objetivo es predecir un valor continuo, que en este caso es la probabilidad de admisión. La regresión lineal es adecuada para este tipo de problemas, ya que modela la relación entre las características del estudiante y la probabilidad de ser admitido como un valor numérico entre 0 y 1. A diferencia de la regresión logística, que es ideal para clasificar resultados binarios, la regresión lineal nos permite obtener una estimación precisa de la probabilidad de admisión, lo cual es más útil en este contexto.</p>
